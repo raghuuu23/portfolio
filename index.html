@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kummari Raghavendra | Portfolio</title>
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- my own styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Raghavendra</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HOME ========== -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <div class="avatar mx-auto mb-4">KR</div>
+      <h1 class="display-4 fw-bold">Hello, I'm Kummari Raghavendra</h1>
+      <p class="fs-4 mb-1">Aspiring Full Stack Developer</p>
+      <p class="hero-text mx-auto mb-4">I like building websites that work well on every screen. Right now I'm learning HTML, CSS, JavaScript and Node.js.</p>
+      <a href="#projects" class="btn btn-accent btn-lg me-2">View my work</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Contact me</a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="py-5">
+    <div class="container py-4">
+      <h2 class="section-heading text-center">About Me</h2>
+
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-6">
+          <p>I have completed my B.Tech in Electronics and Communication Engineering at St. Peter’s Engineering College. I am interested in software development and enjoy coding, solving problems, and learning new technologies. I want to become a developer where I can improve my skills and build useful solutions.</p>
+          <p>I am looking for an opportunity where I can work on real-world projects, learn from an experienced team, and grow my technical skills.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h5>My skills</h5>
+
+          <p class="mb-1">HTML &amp; CSS</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 85%">85%</div>
+          </div>
+
+          <p class="mb-1">JavaScript</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 70%">70%</div>
+          </div>
+
+          <p class="mb-1">Bootstrap</p>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width: 75%">75%</div>
+          </div>
+
+          <p class="mb-1">Node.js &amp; SQL</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%">50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="py-5 bg-light-blue">
+    <div class="container py-4">
+      <h2 class="section-heading text-center">My Projects</h2>
+      <p class="text-center text-muted mb-5">Some of the projects I have worked on during my studies.</p>
+
+      <div class="row g-4">
+
+        <!-- project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100">
+            <img src="images/project1.png" class="project-img" alt="Crop recommendation system">
+            <div class="card-body">
+              <h5 class="card-title">Crop Recommendation System using Machine Learning.</h5>
+              <p class="card-text">This project is used to recommend suitable crops based on soil nutrients, temperature, humidity, and rainfall.By this project,I learned the basics of data preprocessing, machine learning models, Python programming, and using data to make predictions.</p>
+              <span class="badge">Python</span>
+              <span class="badge">Machine Learning</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="me-3">Live demo</a>
+              <a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100">
+            <img src="images/project2.png" class="project-img" alt="Biomedical imaging with blockchain">
+            <div class="card-body">
+              <h5 class="card-title">Quantum-Driven Biomedical Imaging with Blockchain-Enabled Secure Diagnostics</h5>
+              <p class="card-text">This project focuses on improving biomedical image and analysis securely managing diagnostic data using blockchain technology.By this project, I learned about biomedical imaging, data security, blockchain concepts and how emerging technologies can be combined to improve healthcare solutions.</p>
+              <span class="badge">Blockchain</span>
+              <span class="badge">Biomedical Imaging</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="me-3">Live demo</a>
+              <a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card h-100">
+            <img src="images/arduino-piano.png" class="project-img circuit-img" alt="Arduino piano circuit diagram">
+            <div class="card-body">
+              <h5 class="card-title">Arduino Piano System and Real-time Translation Tool</h5>
+              <p class="card-text">An Arduino piano that sends key presses to a Python tool for real-time translation into notes, MIDI, and chords. I learned about input debouncing, Serial communication, and the limits of single-tone audio.</p>
+              <span class="badge">Arduino</span>
+              <span class="badge">Python</span>
+              <span class="badge">Serial</span>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="me-3">Live demo</a>
+              <a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="py-5">
+    <div class="container py-4">
+      <h2 class="section-heading text-center">Contact Me</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+          <form id="contactForm" novalidate>
+
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Name</label>
+              <input type="text" id="fullName" class="form-control" placeholder="Enter your name">
+              <small class="error-text" id="nameError"></small>
+            </div>
+
+            <div class="mb-3">
+              <label for="userEmail" class="form-label">Email</label>
+              <input type="email" id="userEmail" class="form-control" placeholder="Enter your email">
+              <small class="error-text" id="emailError"></small>
+            </div>
+
+            <div class="mb-3">
+              <label for="userMessage" class="form-label">Message</label>
+              <textarea id="userMessage" rows="4" class="form-control" placeholder="Write your message"></textarea>
+              <small class="error-text" id="messageError"></small>
+            </div>
+
+            <button type="submit" class="btn btn-accent w-100">Send</button>
+            <div id="successBox" class="alert alert-success mt-3 d-none">Thank you! Your message has been sent.</div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="text-center text-white py-3">
+    <p class="mb-0">&copy; <span id="currentYear"></span> Kummari Raghavendra. All rights reserved.</p>
+  </footer>
+
+  <!-- bootstrap js and my script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
